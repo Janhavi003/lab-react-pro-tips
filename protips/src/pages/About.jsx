@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import './about.css';
+import './about.css'
 
 function About() {
   const initState = {
@@ -74,10 +74,10 @@ function About() {
     <div>
       <Navbar />
       <div className="form">
-        <form onSubmit={handleSubmit}>
         <div className="registration-success">
-          {registrationSuccess && <p>Registration Successful!</p>}
+          {registrationSuccess && <div>Registration Successful!</div>}
         </div>
+        <form onSubmit={handleSubmit}>
           <label>
             <input
               type="text"

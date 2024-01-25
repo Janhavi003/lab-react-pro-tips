@@ -41,13 +41,9 @@ input[type="submit"] {
 
 .registration-success {
     margin-top: 20px;
-    padding: 10px;
-    border: 1px solid green;
-    border-radius: 5px;
-    background-color: rgba(100, 255, 100, 0.2);
-}
-.registration-success p{
+    margin-left:38vw;
     color: green;
+    font-size: 30px;
     font-weight: bold;
 }
 
