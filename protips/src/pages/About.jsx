@@ -75,6 +75,9 @@ function About() {
       <Navbar />
       <div className="form">
         <form onSubmit={handleSubmit}>
+        <div className="registration-success">
+          {registrationSuccess && <p>Registration Successful!</p>}
+        </div>
           <label>
             <input
               type="text"
@@ -121,9 +124,6 @@ function About() {
           </label>
           <input type="submit" value={"Register"} className="submit-button" />
         </form>
-        <div className="registration-success">
-          {registrationSuccess && <div>Registration Successful!</div>}
-        </div>
       </div>
     </div>
   );
